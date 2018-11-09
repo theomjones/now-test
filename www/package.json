@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "hyperapp": "^1.2.9",
+    "parcel-bundler": "^1.10.3"
+  },
+  "scripts": {
+    "now-build": "NODE_ENV=production parcel build index.html",
+    "dev": "NODE_ENV=dev parcel index.html"
+  }
+}
